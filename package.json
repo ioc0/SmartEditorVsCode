@@ -25,7 +25,12 @@
             "command": "extension.playerCommand",
             "title": "Start Client"
             
-        }]
+        },{
+            "command": "extension.sendTextCommand",
+            "title": "Send Text"
+        }
+
+        ]
     },
     "scripts": {
         "vscode:prepublish": "tsc -p ./",
